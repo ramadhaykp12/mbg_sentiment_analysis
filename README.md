@@ -17,8 +17,12 @@ Data yang diambil merupakan tweet dari rentang tanggal 27 September 2025 - 30 Se
 
 ## Data Labeling
 Pelabelan data dilakukan menggunakan model open source dari HuggingFace. Adapun model yang digunakan
-adalah w11wo/indonesian-roberta-base-sentiment-classifier yang merupakan model Indonesian RoBERTa Base 
-yang telah fine-tuned dengan dataset SMSA indonlu. Model ini merupakan model open-sourse dari HuggingFace.
+adalah
+```
+w11wo/indonesian-roberta-base-sentiment-classifier
+```
+yang merupakan model Indonesian RoBERTa Base yang telah fine-tuned dengan dataset SMSA indonlu. 
+Model ini merupakan model open-sourse dari HuggingFace.
 
 ## Exploratory Data Analysis
 ### Sentiment Label Percentage
